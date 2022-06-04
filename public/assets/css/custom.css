@@ -1,0 +1,32 @@
+.pagination{justify-content: end;margin-bottom: 0;}
+  .pagination li{
+    float: left;
+  }
+  .pagination li a{
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border:1px solid #01776c;
+    background-color: white;
+    color: #009688;
+  }
+  .pagination li.active a{
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border:1px solid #01776c;
+    background-color: #009688;
+    color: white;
+  }
+  .header .has-arrow .dropdown-toggle:after {
+    border-bottom: 2px solid #fff !important;
+    border-right: 2px solid #fff !important;
+  }
+  .header .header-left {
+    height: 79px !important;
+  }
+
+  .breadcrumb .breadcrumb-item.active,.text-theme{
+    color: #009688 !important;
+  }
+  .bg-theme{
+    background-color: #009688 !important;
+  }

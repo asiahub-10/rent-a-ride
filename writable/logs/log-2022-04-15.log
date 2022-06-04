@@ -1,0 +1,1260 @@
+ERROR - 2022-04-15 00:04:17 --> Unknown column 'code_c.name' in 'field list'
+ERROR - 2022-04-15 00:04:46 --> Unknown column 'code_c.name' in 'field list'
+CRITICAL - 2022-04-15 00:04:46 --> Undefined variable $vehicles
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\home\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(17): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-15 00:05:16 --> Unknown column 'code_c.name' in 'field list'
+ERROR - 2022-04-15 00:05:50 --> Unknown column 'code_c.name' in 'field list'
+ERROR - 2022-04-15 00:06:54 --> Unknown column 'code_c.name' in 'field list'
+CRITICAL - 2022-04-15 00:06:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(17): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 00:07:23 --> Unknown column 'code_c.name' in 'field list'
+CRITICAL - 2022-04-15 00:07:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(17): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 00:07:33 --> Unknown column 'code_c.name' in 'field list'
+ERROR - 2022-04-15 00:08:17 --> Unknown column 'code_c.name' in 'field list'
+CRITICAL - 2022-04-15 00:08:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(17): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 00:09:07 --> Unknown column 'code_c.name' in 'field list'
+CRITICAL - 2022-04-15 00:09:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(17): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 00:09:24 --> Unknown column 'code_c.name' in 'field list'
+ERROR - 2022-04-15 00:09:50 --> Unknown column 'code_c.name' in 'field list'
+CRITICAL - 2022-04-15 00:09:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(20, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(20, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(17): CodeIgniter\BaseModel->paginate()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-15 00:10:02 --> Unknown column 'code_c.name' in 'field list'
+CRITICAL - 2022-04-15 00:10:02 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(4, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(17): CodeIgniter\BaseModel->paginate(4)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-15 00:27:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\home\home.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(19): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-15 00:28:24 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(20): view('front_end/pages...', Array)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-15 00:29:04 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\home\home.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(20): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-15 00:29:30 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\home\home.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(20): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-15 00:30:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-15 00:30:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-15 00:39:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-15 00:39:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-15 00:40:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-15 00:40:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-15 05:28:13 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:28:13 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->font_details('images', 'bg_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:28:13 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:28:13 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->font_details('images', 'bg_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:28:13 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:28:13 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->font_details('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:28:13 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:28:13 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->font_details('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:28:13 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:28:13 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->font_details('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:29:15 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:29:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'bg_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:29:15 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:29:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'bg_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:29:16 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:29:16 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:29:16 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:29:16 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:29:16 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:29:16 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:29:43 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:29:43 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'bg_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:29:43 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:29:43 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'bg_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:29:44 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:29:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:29:44 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:29:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:29:44 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:29:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:30:08 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:30:08 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:30:08 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:30:08 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'bg_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:30:08 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:30:08 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'bg_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:30:08 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:30:08 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:30:08 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:30:08 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:30:08 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:30:08 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:30:09 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:30:09 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:30:09 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:30:09 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:31:16 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:31:16 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'bg_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:31:17 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:31:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:31:17 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:31:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:31:17 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:31:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:31:17 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:31:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:31:17 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:31:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:31:17 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:31:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:31:44 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:31:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:31:44 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:31:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:31:44 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:31:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:32:35 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:32:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:32:35 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:32:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:32:35 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:32:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:32:35 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:32:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:32:35 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:32:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:32:35 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:32:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:32:50 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:32:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:32:50 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:32:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:32:50 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:32:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:33:18 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:33:18 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:33:18 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:33:18 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:33:18 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:33:18 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:33:18 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:33:18 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:33:18 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:33:18 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:33:19 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:33:19 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:34:28 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:34:28 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:34:28 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:34:28 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:34:28 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:34:28 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:35:49 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:35:49 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:35:49 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:35:49 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:35:49 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:35:49 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:36:14 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:36:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:36:14 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:36:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:36:14 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:36:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:37:02 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-04-15 05:37:02 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(61): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:38:09 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:38:09 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:38:10 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:38:10 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:38:10 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:38:10 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-15 05:41:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\vehicle\details.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(88): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('3')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-15 05:41:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\vehicle\details.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(88): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('3')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-15 05:42:35 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:42:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:42:35 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:42:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:42:35 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:42:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:42:53 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:42:53 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:42:53 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:42:53 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:42:53 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:42:53 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:42:53 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:42:53 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:42:54 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:42:54 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:42:54 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:42:54 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:07 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:07 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:07 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:07 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:07 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:07 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:49 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:49 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:49 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:49 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:50 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:50 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:50 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:50 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:59 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:59 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:43:59 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:43:59 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:44:00 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:44:00 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:44:14 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:44:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:44:15 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:44:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:44:15 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:44:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:44:15 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:44:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:44:15 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:44:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:44:15 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:44:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:44:41 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:44:41 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:44:41 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:44:41 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:44:41 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:44:41 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:45:14 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:45:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:45:14 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:45:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:45:14 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:45:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:45:14 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:45:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:45:14 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:45:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:45:15 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:45:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:49:41 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:49:41 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:49:42 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:49:42 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:49:42 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:49:42 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:52:06 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:52:06 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:52:06 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:52:06 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:52:06 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:52:06 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:54:07 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:54:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:54:07 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:54:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:54:07 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:54:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:54:50 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:54:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:54:50 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:54:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:54:50 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:54:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'car-3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:55:51 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:55:51 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_1.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:55:51 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:55:51 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_2.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 05:55:51 --> Unknown column 'images' in 'where clause'
+CRITICAL - 2022-04-15 05:55:51 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(82): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('images', 'person_3.jpg')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-15 11:32:14 --> Unknown column 'code_services.html' in 'where clause'
+CRITICAL - 2022-04-15 11:32:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(212): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->carDetails('services.html')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-15 12:04:59 --> Undefined variable $categories
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\booking\booking.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Booking.php(263): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Booking->carBooking()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-15 12:06:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\booking\booking.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Booking.php(264): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Booking->carBooking()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

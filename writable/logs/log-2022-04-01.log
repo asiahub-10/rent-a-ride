@@ -1,0 +1,1262 @@
+CRITICAL - 2022-04-01 00:00:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 00:00:48 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$pager
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 00:01:00 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(27): view('pages/vehicle/v...', Array)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 00:02:21 --> Undefined property: mysqli::$id
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\vehicles.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(27): view('pages/vehicle/v...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:02:42 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(27): view('pages/vehicle/v...', Array)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 00:02:59 --> Call to undefined method App\Models\VehicleModel::getResult
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(24): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 00:03:47 --> Call to undefined method App\Models\VehicleModel::getResult
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(24): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 00:03:58 --> Undefined property: mysqli::$id
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\vehicles.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(27): view('pages/vehicle/v...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:04:08 --> Attempt to read property "id" on string
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\vehicles.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(27): view('pages/vehicle/v...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:04:23 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(27): view('pages/vehicle/v...', Array)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 00:05:40 --> Undefined variable $pager
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\vehicles.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(26): view('pages/vehicle/v...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:06:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\vehicles.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(26): view('pages/vehicle/v...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-01 00:11:47 --> Unknown column 'code_v.category_id' in 'on clause'
+ERROR - 2022-04-01 00:11:47 --> Unknown column 'code_v.category_id' in 'on clause'
+CRITICAL - 2022-04-01 00:11:47 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(27): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-01 00:11:57 --> Unknown column 'code_v.category_id' in 'on clause'
+ERROR - 2022-04-01 00:11:57 --> Unknown column 'code_v.category_id' in 'on clause'
+CRITICAL - 2022-04-01 00:11:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(26): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-01 00:18:01 --> Unknown column 'code_v.category_id' in 'on clause'
+ERROR - 2022-04-01 00:18:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `c`.`name` `category`
+FROM `code_vehicles`
+JOIN `code_categories` `c` ON ...' at line 1
+CRITICAL - 2022-04-01 00:18:01 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(28): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-01 00:21:17 --> Unknown column 'v.category_id' in 'on clause'
+ERROR - 2022-04-01 00:21:17 --> Unknown table 'codeigniter.v'
+CRITICAL - 2022-04-01 00:21:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(28): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-01 00:21:31 --> Unknown column 'v.category_id' in 'on clause'
+ERROR - 2022-04-01 00:21:31 --> Unknown table 'codeigniter.v'
+CRITICAL - 2022-04-01 00:21:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(28): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 00:25:29 --> Undefined array key "category"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\vehicles.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(28): view('pages/vehicle/v...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-01 00:26:31 --> Unknown column 'v.category_id' in 'on clause'
+ERROR - 2022-04-01 00:26:31 --> Unknown table 'codeigniter.v'
+CRITICAL - 2022-04-01 00:26:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(29): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-01 00:28:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `code_vehicles`
+JOIN `code_categories` as `c` ON `c`.`id` = `code_vehicl...' at line 2
+CRITICAL - 2022-04-01 00:28:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(28): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-01 00:29:04 --> Unknown column 'code_v.category_id' in 'on clause'
+ERROR - 2022-04-01 00:29:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `code_vehicles`
+JOIN `code_categories` as `c` ON `c`.`id` = `code_v`.`ca...' at line 2
+CRITICAL - 2022-04-01 00:29:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(28): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-01 00:29:37 --> Unknown column 'code_v.category_id' in 'on clause'
+ERROR - 2022-04-01 00:29:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `c`.`name`
+FROM `code_vehicles`
+JOIN `code_categories` as `c` ON `c`.`id`...' at line 1
+CRITICAL - 2022-04-01 00:29:37 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(28): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-01 00:30:49 --> Unknown column 'code_v.category_id' in 'on clause'
+ERROR - 2022-04-01 00:30:49 --> Unknown column 'code_v.category_id' in 'on clause'
+CRITICAL - 2022-04-01 00:30:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(28): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-01 00:33:35 --> Table 'codeigniter.code_categories as c , vehicles' doesn't exist
+ERROR - 2022-04-01 00:33:35 --> Table 'codeigniter.code_categories as c , vehicles' doesn't exist
+CRITICAL - 2022-04-01 00:33:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(28): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-01 00:34:35 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-04-01 00:34:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(61): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-01 00:34:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:39:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/edit', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(86): view('pages/user/edit', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:42:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:44:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:44:55 --> Undefined array key "fuel"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\vehicles.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(27): view('pages/vehicle/v...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-01 00:46:09 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-04-01 00:46:09 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(61): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-01 00:47:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\driver\details.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/driver/de...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Driver.php(49): view('pages/driver/de...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Driver->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:48:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\driver\details.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/driver/de...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Driver.php(49): view('pages/driver/de...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Driver->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:49:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\driver\details.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/driver/de...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Driver.php(49): view('pages/driver/de...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Driver->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:50:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\driver\details.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/driver/de...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Driver.php(49): view('pages/driver/de...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Driver->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 00:52:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-01 00:52:45 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-04-01 00:52:45 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(61): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-01 00:52:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\driver\details.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/driver/de...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Driver.php(49): view('pages/driver/de...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Driver->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:01:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:02:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:07:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 129)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:07:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 129)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:08:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:10:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:11:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:11:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:13:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:14:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:14:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:14:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:15:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:15:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:16:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:16:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:17:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:17:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:17:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:18:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:19:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:19:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:20:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:20:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:20:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:20:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:20:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:21:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:21:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:21:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:23:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:23:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:23:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:23:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:24:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:24:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:24:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:25:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:25:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:26:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:26:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:26:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:27:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:27:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:28:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:29:50 --> Undefined array key "role"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('1')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:29:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(69): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:30:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:30:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:30:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:31:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:32:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:33:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:33:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:33:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-01 01:34:29 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-04-01 01:34:29 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(61): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-01 01:34:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:35:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:35:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:35:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:35:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:35:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-01 01:36:27 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-04-01 01:36:27 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(61): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-01 01:36:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 06:26:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/deta...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(71): view('pages/user/deta...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-01 06:26:27 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-04-01 06:26:27 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(61): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-01 06:26:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\driver\details.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/driver/de...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Driver.php(49): view('pages/driver/de...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Driver->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 06:27:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\customer\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/customer/...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Customer.php(49): view('pages/customer/...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Customer->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 09:35:11 --> Unsupported operand types: string * int
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Booking->orderTotal()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-01 11:44:46 --> Duplicate entry 'Dhk-456' for key 'vehicle_license_no'
+ERROR - 2022-04-01 11:44:55 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-04-01 11:44:55 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(61): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-01 11:48:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 11:49:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 11:49:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 11:49:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 11:50:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 11:52:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-01 11:52:33 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-04-01 11:52:33 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(61): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-01 11:56:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 11:56:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/e...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(85): view('pages/vehicle/e...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-01 23:10:48 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-04-01 23:10:48 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(61): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-01 23:24:22 --> Duplicate entry 'DHK-222' for key 'vehicle_license_no'

@@ -1,0 +1,55 @@
+CRITICAL - 2022-04-14 23:52:45 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\home\home.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(12): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 23:53:23 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\home\home.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(12): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 23:54:51 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\home\home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(12): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 23:55:48 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\home\home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(12): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 23:56:38 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\front_end\pages\home\home.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('front_end/pages...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Home.php(12): view('front_end/pages...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

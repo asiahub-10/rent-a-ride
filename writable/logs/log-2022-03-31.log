@@ -1,0 +1,1230 @@
+CRITICAL - 2022-03-31 00:00:24 --> Call to undefined method App\Models\UserModel::getAll
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Models\UserModel.php(19): CodeIgniter\Model->__call('getAll', Array)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(20): App\Models\UserModel->allUser()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-31 00:00:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 00:02:19 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\User given
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Models\UserModel.php(20): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(20): App\Models\UserModel->allUser()
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-31 00:02:21 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\User given
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Models\UserModel.php(20): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(20): App\Models\UserModel->allUser()
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-31 00:02:37 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\User given
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Models\UserModel.php(20): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(20): App\Models\UserModel->allUser()
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-31 00:06:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 00:06:48 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\User given
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\Us...')
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(21): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-31 00:07:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 00:07:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 00:10:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 00:10:55 --> Call to undefined method App\Models\UserModel::getResult
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Models\UserModel.php(37): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(21): App\Models\UserModel->allUser()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-31 00:27:51 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 00:37:23 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 00:39:07 --> Call to undefined method App\Models\UserModel::pagination
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(32): CodeIgniter\Model->__call('pagination', Array)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 00:39:18 --> Call to undefined method App\Models\UserModel::pagination
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(32): CodeIgniter\Model->__call('pagination', Array)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-31 00:39:47 --> Unknown column 'code_users.deleted_at' in 'where clause'
+ERROR - 2022-03-31 00:39:47 --> Unknown column 'code_users.deleted_at' in 'where clause'
+CRITICAL - 2022-03-31 00:39:47 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(36): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-31 00:43:03 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-31 00:53:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`role`' at line 3
+ERROR - 2022-03-31 00:53:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`role`
+ LIMIT 10' at line 3
+CRITICAL - 2022-03-31 00:53:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(38): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-31 00:54:57 --> Undefined array key "name"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\user\users.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/user...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\User.php(38): view('pages/user/user...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 03:46:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\driver\details.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/driver/de...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Driver.php(49): view('pages/driver/de...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Driver->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 03:46:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 03:47:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\driver\details.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/driver/de...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Driver.php(49): view('pages/driver/de...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Driver->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 03:48:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 03:48:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 03:49:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\user\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/user/edit', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\User.php(86): view('pages/user/edit', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\User->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 04:22:54 --> Undefined array key "name"
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\booking_detail\create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/booking_d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\BookingDetail.php(126): view('pages/booking_d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\BookingDetail->create()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingDetail))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 04:22:57 --> Undefined array key "name"
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\booking_detail\create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/booking_d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\BookingDetail.php(126): view('pages/booking_d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\BookingDetail->create()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingDetail))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 04:24:37 --> Undefined array key "name"
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\booking_detail\create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/booking_d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\BookingDetail.php(126): view('pages/booking_d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\BookingDetail->create()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingDetail))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 04:24:44 --> Undefined array key "name"
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\booking_detail\create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/booking_d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\BookingDetail.php(126): view('pages/booking_d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\BookingDetail->create()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingDetail))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 04:24:47 --> Undefined array key "name"
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\booking_detail\create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/booking_d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\BookingDetail.php(126): view('pages/booking_d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\BookingDetail->create()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingDetail))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 04:25:29 --> Undefined array key "vehicle_licence_no"
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\booking_detail\create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/booking_d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\BookingDetail.php(126): view('pages/booking_d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\BookingDetail->create()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingDetail))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 04:28:49 --> Undefined variable $bookings
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\booking\create.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/booking/c...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Booking.php(106): view('pages/booking/c...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Booking->create()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 05:28:42 --> Too few arguments to function App\Controllers\Booking::orderTotal(), 0 passed in C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php on line 832 and exactly 4 expected
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Booking->orderTotal()
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 05:39:42 --> Too few arguments to function App\Controllers\Booking::orderTotal(), 0 passed in C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php on line 832 and exactly 4 expected
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Booking->orderTotal()
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 05:43:24 --> Too few arguments to function App\Controllers\Booking::orderTotal(), 0 passed in C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php on line 832 and exactly 4 expected
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Booking->orderTotal()
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 07:21:56 --> Undefined variable $driver
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('1')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:21:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:22:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:35:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:35:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:35:52 --> Undefined variable $driver
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('1')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:35:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:36:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:36:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:36:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:37:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:37:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:41:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:42:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:42:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:43:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:44:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:44:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:44:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:45:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:45:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:45:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:45:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:46:34 --> Undefined array key "fuel_type"
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('1')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:46:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:46:45 --> Undefined array key "fuel_type"
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('1')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:46:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:46:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:47:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:48:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:50:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:50:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:51:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:51:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 07:51:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:26:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(49): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:37:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:37:58 --> Undefined array key "fuel"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('2')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:37:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:38:37 --> Undefined array key "fuel"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('2')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:38:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:39:01 --> Undefined array key "name"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('2')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:39:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:39:40 --> Undefined array key "name"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('2')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:39:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:39:50 --> Undefined array key "fuel"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('2')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:39:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:40:55 --> Undefined array key "fuel"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('2')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:40:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:41:20 --> Undefined array key "name"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('2')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:41:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:43:12 --> Undefined array key "category"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(55): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('2')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:43:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(55): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:47:44 --> Undefined array key "category"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\details.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/d...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(60): view('pages/vehicle/d...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('1')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-31 22:47:45 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:47:45 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:47:57 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:47:57 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:50:06 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:50:06 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:51:10 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:51:10 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:52:06 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:52:06 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:53:02 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:53:02 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:53:13 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:53:13 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:53:35 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:53:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:54:10 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:54:10 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:54:20 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:54:20 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:54:31 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:54:31 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:56:38 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:56:38 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:56:52 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:56:52 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:57:21 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:57:21 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:58:29 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:58:29 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:59:09 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:59:09 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 22:59:28 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 22:59:28 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:16:48 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:16:48 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:17:47 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:17:47 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:18:03 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:18:03 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:18:15 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:18:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:18:32 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:18:32 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:18:58 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:18:58 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:19:13 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:19:13 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:19:34 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:19:34 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:19:46 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:19:46 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:20:00 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:20:00 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 23:20:25 --> Unknown column 'assets' in 'where clause'
+CRITICAL - 2022-03-31 23:20:25 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(54): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->details('assets', 'img', 'favicon.png')
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-31 23:24:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\driver\details.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/driver/de...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Driver.php(49): view('pages/driver/de...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Driver->details('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 23:25:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\categorie\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/categorie...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Category.php(65): view('pages/categorie...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Category->edit('assets', 'img', 'favicon.png')
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-31 23:52:37 --> Unknown table 'codeigniter.code_c'
+CRITICAL - 2022-03-31 23:52:37 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-31 23:53:51 --> Unknown table 'codeigniter.code_c'
+CRITICAL - 2022-03-31 23:53:51 --> Call to a member function paginate() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 23:54:33 --> Undefined array key "name"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\vehicle\vehicles.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/vehicle/v...', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(25): view('pages/vehicle/v...', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-31 23:57:59 --> Unknown column 'code_f.name' in 'field list'
+CRITICAL - 2022-03-31 23:57:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->paginate(10)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Vehicle->index()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

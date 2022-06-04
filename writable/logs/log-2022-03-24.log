@@ -1,0 +1,241 @@
+ERROR - 2022-03-24 00:38:35 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-24 00:38:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Auth.php(16): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-24 00:38:49 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-24 00:38:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Auth.php(16): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-24 00:39:14 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-24 00:39:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Auth.php(17): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-24 00:39:20 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-24 00:39:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Auth.php(17): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-24 00:39:39 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-24 00:39:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Auth.php(17): CodeIgniter\Database\BaseConnection->query('select * from c...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-24 00:56:49 --> Table 'codeigniter.users' doesn't exist
+CRITICAL - 2022-03-24 00:56:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Auth.php(20): CodeIgniter\BaseModel->find()
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-24 00:57:46 --> Class "App\Models\UserModel" not found
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-24 01:06:34 --> Invalid file: pages/home.php
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/home.php')
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Auth.php(22): view('pages/home', Array)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 01:07:14 --> Invalid file: home.php
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Auth.php(22): view('home', Array)
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 01:08:02 --> Undefined array key "username"
+#0 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Views\pages\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#4 C:\xampp\htdocs\codeigniter\rent-a-ride\app\Controllers\Auth.php(22): view('pages/dashboard', Array)
+#5 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-24 04:58:54 --> Invalid file: pages/login.php
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Auth.php(9): view('pages/login')
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 04:59:10 --> Invalid file: pages/login.php
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Auth.php(9): view('pages/login')
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 04:59:11 --> Invalid file: pages/login.php
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Auth.php(9): view('pages/login')
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 04:59:14 --> Invalid file: pages/login.php
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Auth.php(9): view('pages/login')
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 04:59:53 --> Invalid file: pages/login.php
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Auth.php(9): view('pages/login')
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 05:00:53 --> Invalid file: pages/login.php
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Auth.php(9): view('pages/login')
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 05:07:36 --> Invalid file: pages/login.php
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Auth.php(9): view('pages/login')
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 05:09:39 --> Invalid file: pages/login.php
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Auth.php(9): view('pages/login')
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 05:10:46 --> Invalid file: pages/login.php
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Auth.php(9): view('pages/login')
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 05:15:45 --> Undefined variable $user
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Home.php(13): view('pages/dashboard')
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-24 05:16:35 --> Undefined variable $user
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Home.php(13): view('pages/dashboard')
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-24 05:16:38 --> Undefined variable $user
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Home.php(13): view('pages/dashboard')
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-24 05:16:40 --> Undefined variable $user
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Home.php(13): view('pages/dashboard')
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-24 05:17:14 --> Undefined variable $user
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Home.php(13): view('pages/dashboard')
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-24 05:19:37 --> Undefined variable $user
+#0 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Views\pages\dashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#4 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\app\Controllers\Home.php(13): view('pages/dashboard')
+#5 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\asia\codeigniter\rent-a-ride\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
